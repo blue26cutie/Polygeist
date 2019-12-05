@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{18A227F1-5C0F-ACA8-E1B1-82377BC58276}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LoadLevel.cs">
+    <Files>
+      <File FileName="Assets/LoadLevel.cs" Line="19" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Final" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="LoadLevel.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0d95a1c4-ea29-4a27-9864-59ac70894c4b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
