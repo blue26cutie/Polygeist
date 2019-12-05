@@ -6,17 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class LoadLevel : MonoBehaviour
 {
-    public string levelName;
 
-    void OnTriggerEnter(Collider other)
+
+
+
+    void OnCollisionEnter(Collision col)
     {
-        if (other.CompareTag("Player"))
-        {
-            //load level with scene name
-            SceneManager.LoadScene(levelName);
 
-            //restart level 1
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Have not entered");
+        //Debug.Log("startinghealth" + health);
+        //Debug.Log(collisions.gameObject.name);
+        Debug.Log(col.gameObject.name);
+        if (col.gameObject.tag == "portal")
+        {
+            Debug.Log("Have entered Collision");
+
+            SceneManager.LoadScene("ghost boss");
+
         }
+
+
     }
 }

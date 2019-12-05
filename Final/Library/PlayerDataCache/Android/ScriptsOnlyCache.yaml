@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraTransformCorrection
     - GameOverManager
+    - LoadLevel
     - QTMConnector
     - QTMObject
     - ScoreManager
@@ -103,17 +104,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11058}
     - Class: 114
-      Script: {instanceID: 11158}
+      Script: {instanceID: 11074}
     - Class: 114
-      Script: {instanceID: 11256}
+      Script: {instanceID: 11160}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 11532}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11534}
+    - Class: 114
+      Script: {instanceID: 11554}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 122
@@ -559,6 +562,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: flaregun
+  - hash:
+      serializedVersion: 2
+      Hash: c54e5d238d05f0415928866fafbf602e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadLevel
   - hash:
       serializedVersion: 2
       Hash: ee0cef6caaac8ae485bfa82f000f0f7b

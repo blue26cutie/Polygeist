@@ -29,7 +29,7 @@ public class ScoreManager : MonoBehaviour
     {
         // Set the displayed text to be the word "Score" followed by the score value.
         text.text = "Score: " + score;
-        Debug.Log("The score is now" + score);
+        //Debug.Log("The score is now" + score);
     }
 }
 

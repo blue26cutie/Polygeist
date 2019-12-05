@@ -6,6 +6,7 @@ TagManager:
   tags:
   - enemy
   - Camera Parent
+  - portal
   layers:
   - Default
   - TransparentFX
