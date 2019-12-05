@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -28,8 +28,8 @@ public class GameOverManager : MonoBehaviour
     void OnCollisionEnter(Collision collisions)
     {
         
-        Debug.Log("startinghealth" + health);
-        Debug.Log(collisions.gameObject.name);
+        //Debug.Log("startinghealth" + health);
+        //Debug.Log(collisions.gameObject.name);
         if (collisions.gameObject.tag == "enemy")
         {
            
@@ -46,12 +46,12 @@ public class GameOverManager : MonoBehaviour
         if (health <= 0)
         {
 
-            Debug.Log("Health is" + health);
+            //Debug.Log("Health is" + health);
             // ... tell the animator the game is over.
             //anim.SetTrigger("GameOver");
             anim.SetBool("IsGameOver", true);
             
-                Debug.Log("Set Bool to true");
+               // Debug.Log("Set Bool to true");
             // .. increment a timer to count up to restarting.
             restartTimer += Time.deltaTime;
 

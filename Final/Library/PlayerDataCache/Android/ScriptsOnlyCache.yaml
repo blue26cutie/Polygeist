@@ -7,6 +7,8 @@ ScriptsOnlyBuild:
     - QTMObject
     - ScoreManager
     - Spawner
+    - StonePortal_AxisRotateByTime
+    - StonePortal_RandomMoves
     - enemyfollow
     - flarebullet
     - flaregun
@@ -75,39 +77,43 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9694}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9796}
+      Script: {instanceID: 9798}
     - Class: 114
-      Script: {instanceID: 9858}
+      Script: {instanceID: 9860}
     - Class: 114
-      Script: {instanceID: 9900}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9960}
+      Script: {instanceID: 9962}
     - Class: 114
-      Script: {instanceID: 10226}
+      Script: {instanceID: 10228}
     - Class: 114
-      Script: {instanceID: 10274}
+      Script: {instanceID: 10276}
     - Class: 114
-      Script: {instanceID: 10298}
+      Script: {instanceID: 10300}
     - Class: 114
-      Script: {instanceID: 10380}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10384}
     - Class: 114
-      Script: {instanceID: 10452}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 11052}
+      Script: {instanceID: 10456}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11058}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 11300}
+      Script: {instanceID: 11256}
     - Class: 114
-      Script: {instanceID: 11524}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11308}
+    - Class: 114
+      Script: {instanceID: 11532}
+    - Class: 114
+      Script: {instanceID: 11552}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 122
@@ -345,6 +351,12 @@ ScriptsOnlyBuild:
     className: RTCharacterStream
   - hash:
       serializedVersion: 2
+      Hash: f16081ff1a687fa84de77aaae724431e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StonePortal_RandomMoves
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -409,6 +421,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: a8df50c4f05271f6eae743cc90c5cae2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StonePortal_Turbulence
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -583,6 +601,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QTMObject
+  - hash:
+      serializedVersion: 2
+      Hash: e7af2ee867c4472507ae496007ae258d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StonePortal_AxisRotateByTime
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb

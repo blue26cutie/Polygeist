@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5B7EA9CA-6FCA-B24E-F27C-369752950431}</ProjectGuid>
+    <ProjectGuid>{18A227F1-5C0F-ACA8-E1B1-82377BC58276}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,6 +68,9 @@
     <Compile Include="Assets\Flare Gun\Scripts\swayc.cs" />
     <Compile Include="Assets\GameOverManager.cs" />
     <Compile Include="Assets\killghost.cs" />
+    <Compile Include="Assets\OrdosFX\StonePortal\ScriptsAndShaders\StonePortal_AxisRotateByTime.cs" />
+    <Compile Include="Assets\OrdosFX\StonePortal\ScriptsAndShaders\StonePortal_RandomMoves.cs" />
+    <Compile Include="Assets\OrdosFX\StonePortal\ScriptsAndShaders\StonePortal_Turbulence.cs" />
     <Compile Include="Assets\Qualisys\DemoAssets\UI\CreateScrollList.cs" />
     <Compile Include="Assets\Qualisys\DemoAssets\UI\ServerButton.cs" />
     <Compile Include="Assets\Qualisys\QTM-Unity-Realtime-Streaming\Character Animation\Skeleton Builder\Helpers\Mathf.cs" />
@@ -137,36 +140,37 @@
     <Compile Include="Assets\Scripts\QTMConnector.cs" />
     <Compile Include="Assets\Scripts\QTMObject.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
+    <None Include="Assets\OrdosFX\StonePortal\ScriptsAndShaders\StonePortal_ParticleAddHDR.shader" />
     <None Include="Assets\Qualisys\ReleaseNotes.txt" />
     <None Include="Assets\smcs.rsp" />
     <None Include="Assets\SimpleSky\ReadMe.txt" />
     <None Include="Assets\mcs.rsp" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Final/Midterm Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/ClaireSutton/Documents/GitHub/Polygeist/Final/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -687,7 +691,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{D7988F50-3607-6DCF-DF5D-DBED70167FDC}</Project>
+      <Project>{4DFF8B3F-55A8-A909-5297-D418CB153797}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
