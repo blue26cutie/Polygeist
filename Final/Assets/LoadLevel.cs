@@ -17,7 +17,7 @@ public class LoadLevel : MonoBehaviour
         //Debug.Log("startinghealth" + health);
         //Debug.Log(collisions.gameObject.name);
         Debug.Log(col.gameObject.name);
-        if (col.gameObject.tag == "portal")
+        if (col.gameObject.tag == "portalgun")
         {
             Debug.Log("Have entered Collision");
 

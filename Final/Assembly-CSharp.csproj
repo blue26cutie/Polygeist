@@ -69,6 +69,7 @@
     <Compile Include="Assets\GameOverManager.cs" />
     <Compile Include="Assets\killghost.cs" />
     <Compile Include="Assets\LoadLevel.cs" />
+    <Compile Include="Assets\loadscene.cs" />
     <Compile Include="Assets\OrdosFX\StonePortal\ScriptsAndShaders\StonePortal_AxisRotateByTime.cs" />
     <Compile Include="Assets\OrdosFX\StonePortal\ScriptsAndShaders\StonePortal_RandomMoves.cs" />
     <Compile Include="Assets\OrdosFX\StonePortal\ScriptsAndShaders\StonePortal_Turbulence.cs" />

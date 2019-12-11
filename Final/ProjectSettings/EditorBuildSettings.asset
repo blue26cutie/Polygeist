@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Forest Scene.unity
     guid: f5b07f26caba1b145886e29b2d8ec7b8
+  - enabled: 1
+    path: Assets/ghost boss.unity
+    guid: 8930821ba0d20444b8f4ce1655e31728
   m_configObjects: {}
