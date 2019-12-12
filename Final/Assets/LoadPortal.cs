@@ -25,6 +25,6 @@ public class LoadPortal : MonoBehaviour
     {
 
         portal.SetActive(true);
-        Debug.Log("portal active");
+        //Debug.Log("portal active");
     }
 }
