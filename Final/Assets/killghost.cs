@@ -20,8 +20,7 @@ public class killghost : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-
-
+        
         if (collision.gameObject.tag == "enemy"){
 
             Debug.Log("Hit the correct enemy tag");
@@ -32,8 +31,18 @@ public class killghost : MonoBehaviour
             Debug.Log("Destroyed  " + collision.gameObject.name);
         }
         Debug.Log(collision.gameObject.name);
-        
-    
+        if (collision.gameObject.tag == "boss ghost")
+        {
+
+            Debug.Log("Hit BIG BOI");
+            ScoreManager.score += scoreValue;
+            //anim.SetTrigger("Die");
+            Destroy(collision.gameObject);
+            
+
+            Debug.Log("Destroyed  " + collision.gameObject.name);
+        }
+
     }
     // Update is called once per frame
     void Update()
