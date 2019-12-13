@@ -9,6 +9,7 @@ TagManager:
   - portal
   - boss ghost
   - portalgun
+  - flarebullet
   layers:
   - Default
   - TransparentFX

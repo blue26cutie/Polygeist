@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28760222, g: 0.3355266, b: 0.52079433, a: 1}
+  m_IndirectSpecularColor: {r: 0.28760058, g: 0.3355252, b: 0.5207941, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2272,7 +2272,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5087639395653208438}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74d4163ea6510074a85747f6814a3fe8, type: 3}
   m_Name: 
@@ -2281,6 +2281,31 @@ MonoBehaviour:
   spawnTime: 3
   spawnPoints:
   - {fileID: 5087639395653208431}
+--- !u!114 &5087639395653208446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5087639395653208438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449bafe1c007d46e0b2b3970343af307, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5087639395653208447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5087639395653208438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ea04ba1d5484b25b66754a6e51c426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1572022349}
 --- !u!1001 &5447702527390746802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2362,6 +2387,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 936974701260882368, guid: d1156c6d0776c954bb099d0bb807bd5a,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936974701260882375, guid: d1156c6d0776c954bb099d0bb807bd5a,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936974701260882375, guid: d1156c6d0776c954bb099d0bb807bd5a,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936974701260882371, guid: d1156c6d0776c954bb099d0bb807bd5a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1156c6d0776c954bb099d0bb807bd5a, type: 3}

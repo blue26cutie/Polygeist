@@ -6,8 +6,13 @@ public class killghost : MonoBehaviour
 {
 
     public int scoreValue = 1;
+    public int bossHealth = 1;
     // Start is called before the first frame update
     Animator anim;
+    //public float x = 5.0f;
+    //public float y = 5.0f;
+    //public float z = 5.0f;
+    
     void Awake()
     {
         // Set up the reference.
@@ -15,6 +20,10 @@ public class killghost : MonoBehaviour
     }
 
     void Start()
+    {
+        
+    }
+    void Update()
     {
         
     }
@@ -31,22 +40,39 @@ public class killghost : MonoBehaviour
             Debug.Log("Destroyed  " + collision.gameObject.name);
         }
         Debug.Log(collision.gameObject.name);
+
         if (collision.gameObject.tag == "boss ghost")
         {
 
             Debug.Log("Hit BIG BOI");
+            Debug.Log(ghostbosshealth.healthValue);
             ScoreManager.score += scoreValue;
-            //anim.SetTrigger("Die");
-            Destroy(collision.gameObject);
+            ghostbosshealth.healthValue -= bossHealth;
+
+            
+            
             
 
-            Debug.Log("Destroyed  " + collision.gameObject.name);
+            if(ghostbosshealth.healthValue == 0)
+            {
+                //anim.Play("Die");
+                Destroy(collision.gameObject);
+                Debug.Log("Destroyed  " + collision.gameObject.name);
+
+            }
+            //anim.SetTrigger("Die");
+
+            //transform.localScale -= new Vector3(x, y, z);
+
+            
+            //Debug.Log("ghost size: " + gameObject.GetComponent<Renderer>().bounds.size.x);
+
         }
 
     }
+
+
+    
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

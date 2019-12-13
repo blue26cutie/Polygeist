@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 1981129688930283877}
   m_Layer: 0
   m_Name: flarebullet
-  m_TagString: Untagged
+  m_TagString: flarebullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4948,3 +4948,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c0226520e9b7054d87ac7e47e2ad2a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreValue: 1
+  bossHealth: 1
