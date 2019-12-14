@@ -31,7 +31,7 @@ public class enemyspawner : MonoBehaviour
         //}
 
         // Find a random index between zero and one less than the number of spawn points.
-        anim.Play("BiteAttack");
+        anim.Play("CastSpell");
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
 
         // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
